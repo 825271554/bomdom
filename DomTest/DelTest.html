@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="father"><h1>biaiti1</h1>
+    <p id="p1">p1</p>
+    <p class="p2">p2</p></div>
+
+
+
+
+<script>
+    //删除节点的步骤是先获取父节点，再通过父节点删除自己
+    var elementById = document.getElementById('father');
+    elementById.removeChild(p1);
+    var child = document.getElementById('p2');
+     var parentElement = child.parentElement;//获取父节点元素
+    parentElement.removeChild(elementById);
+    child.parentNode;
+
+
+ /*   childNodes指的是返回当前元素子节点的所有类型节点，其中连空格和换行符都会默认文本节点，
+      childern指的是返回当前元素的所有元素节点
+      parentNode：顾名思义-父节点
+      parentElement:顾名思义-父元素
+/
+  */
+</script>
+</body>
+</html>

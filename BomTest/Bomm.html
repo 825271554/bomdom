@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<dl id="app">
+
+    <dt>java</dt>
+    <dd>javase</dd>
+</dl>
+<!--window 代表浏览器窗口
+Navigtor(不常用)
+    封装了浏览器信息
+    navigator.appName  navigator.appVersion  navigator.userAgent
+        这种一般用来看你的浏览器版本，例如检查是电脑浏览器还是手机的
+
+
+screen获取全屏幕属性
+    screen.width
+    screen.height
+
+location（重要）
+    代表当前页面的URL信息
+    host属性代表主机
+    href代表当前位置
+    protocol代表协议
+    reload是重新加载
+
+     设置新的地址location.assign("www.jxc.com")   永远是调到该地址
+
+document是当前页面
+    document.title
+    document可以获取网页cookie
+distory 代表浏览器历史记录
+    history.back 返回上一页  偷懒小技巧：例如登录之后 back回首页而不经过服务器到
+    history.forward前进
+
+
+-->
+
+<script>/*获取文档树节点*/
+    var elementById = document.getElementById('app');
+    /*例如打开天猫和淘宝，当登录淘宝的时候，天猫也会获取淘宝的cookie信息，然后天猫就自动登录了*/
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="father"><h1>biaiti1</h1>
+    <p id="p1">p1</p>
+    <p class="p2">p2</p></div>
+
+
+<script>
+    "use strict"
+    let elementsByTagName = document.getElementsByTagName('h1');//标签选择器
+    let elementById = document.getElementById('p1');//id选择器
+    let elementsByClassName = document.getElementsByClassName('p2');//类选择器
+    let father = document.getElementById('father');
+
+    let children = father.children; /*获取父节点下的子节点*/
+    let firstChild = father.firstChild;
+    let lastChild = father.lastChild;
+    let ss = father.appendChild();
+</script>
+</body>
+</html>
